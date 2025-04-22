@@ -1,0 +1,295 @@
+
+    /* Menu */
+
+    nav{
+        background-color: brown;
+        text-align: center;
+        height: 63px;
+        line-height: 50px;
+        
+    }
+
+    .menu{
+        display:flex;
+        gap: 40px;
+        list-style-type: none;       
+    }
+
+    .BotonMenu {
+        font-family: "Montserrat Underline", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        
+        border: 5px solid #222020;
+        border-radius: 2px; 
+        padding: 1px;
+        background-color: bisque;
+
+        display: flex; 
+        text-decoration: none;
+        transition: transform 0.3s ease-in-out; 
+    }
+    
+    .BotonMenu:hover {
+        transform: scale(1.1); 
+    }
+
+    /* Juego */
+
+    .Juego{
+        background-image: url('Imagenes/Covers/PageBack.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: repeat; 
+        height: 100vh; 
+        margin: 0;
+        margin-bottom: 250px;
+    }
+
+    #TitulosJuego{
+        color: whitesmoke;
+        font-family: "Rock Salt", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center
+    }
+
+    #Win{
+        background-image: url('Imagenes/Dicaprio.gif'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: repeat; 
+        height: 100vh; 
+        margin: 0;
+        margin-bottom: 250px;
+    }
+    #Lose{
+        background-image: url('Imagenes/Iorio.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: repeat; 
+        height: 100vh; 
+        margin: 0;
+        margin-bottom: 250px;
+    }
+
+    .InfoCancion{
+        margin-left: 250px;
+        margin-right: 250px;
+        font-size: x-large;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: whitesmoke;
+    }
+
+    #FullScreen{     
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;        
+    }
+
+    /*-----------------*/
+    
+        #Nombre{ 
+            font-family: "Rock Salt", cursive;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center
+        }
+        blockquote {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        table {
+            font-family: "Rock Salt", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        
+
+        a{
+            color: rgb(42, 37, 37);
+            text-decoration: none;
+            font-size: xx-large;
+        }
+        
+
+    .BodyCenter{
+       text-align: center;
+        margin: 0;
+        background-color: bisque;
+        color: rgb(97, 97, 97);
+    }
+
+    body{
+        
+         margin: 0;
+         background-color: bisque;
+         color: rgb(97, 97, 97);
+        
+     }
+
+    #Discos{
+
+        margin-top: 50px;
+        margin-bottom: 25px; 
+        
+        text-align: center;
+        width: 60%;
+        border: #000000 solid 1px;
+       
+
+    }
+
+        #footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #3a3a3a;
+            color: whitesmoke;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 10px 20px;
+
+            border: 5px solid #222020;
+            border-radius: 2px; 
+            padding: 1px;
+            
+
+        }
+
+        #FooterPlaylist {
+            
+            height: 53px;
+            background-color: brown;
+            color: whitesmoke;
+            text-align: center;        
+
+        }
+        
+        
+        .Izquierda {
+            text-align: left;
+            margin-left: 100px;
+
+        }
+        
+        .Centro {
+            text-align: center;
+            flex: 1; 
+        }
+        
+        .Derecha {
+            text-align: right;
+            margin-right: 100px;
+        }
+
+        .TextoPie{
+            color: whitesmoke;
+        }
+
+        
+
+        .imagenes {
+            display: flex;
+            justify-content: center; 
+            gap: 20px;
+        }
+
+        .imagenes img {
+            width: 300px; 
+            height: auto;
+            border: 2px solid #3498db;
+            border-radius: 5px; 
+            padding: 5px; 
+            background-color: white;
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        .imagenes img:hover {
+            transform: scale(1.1); 
+        }
+
+        #Yo1{
+            width: 500px; 
+            height: auto;
+            border: 5px solid black;
+            border-radius: 5px; 
+            padding: 5px; 
+            background-color: grey;
+            transition: transform 0.3s ease-in-out; 
+        }
+        
+        #Yo1:hover {
+            transform: scale(1.1); 
+        }
+
+        .Iconos img {
+            width: 70px; 
+            height: auto; 
+            transition: transform 0.3s ease-in-out; 
+        }
+
+        .Iconos img:hover {
+            transform: scale(1.1); 
+        }
+
+        .TapaDisco{
+            width: 150px;
+            margin-top: 15px;
+
+            height: auto;
+            border: 5px solid #000000;
+            background-color: grey;
+            border-radius: 5px; 
+            padding: 5px; 
+                
+        }
+
+       #SideBar{
+
+        font-family: "Montserrat Underline", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+
+            display: inline-block;
+            background-color: grey;
+            width: 20%;
+            height: 700px;
+            vertical-align: top;
+
+            color: yellow;
+           
+           
+        
+
+        }
+
+        
+
+        .Contenido{
+            display: inline-block;
+            width: 80%;
+            height: 500px;
+            background-color: bisque;
+
+
+        }
+
+        
+       
+    
+          
+          
